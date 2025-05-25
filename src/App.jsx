@@ -41,6 +41,9 @@ function App() {
 
       {/* 4️⃣  Pass the **real variable** `counts` to MoodStats */}
       <MoodStats counts={counts} />
+      <button onClick={() => setCounts({ happy: 0, tired: 0, excited: 0, meh: 0 })}>
+        Reset
+      </button>
     </div>
   );
 }

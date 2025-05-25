@@ -94,3 +94,12 @@ npm run dev
 - Class slides “React State Basics” (pp 2‑6)
 
 Happy hacking—let the emojis do the talking!
+
+
+## 🔁 Reflection
+
+**One thing I learned:**  
+I learned how to update object state immutably using React’s functional `setState` form.
+
+**One bug I fixed:**  
+Initially, my MoodStats percentages displayed `NaN%` because I didn’t guard against divide-by-zero. I fixed it by adding a `total === 0` check.
